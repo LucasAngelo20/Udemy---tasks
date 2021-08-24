@@ -1,5 +1,4 @@
 const bcrypt = require("bcrypt-nodejs");
-const { json } = require("body-parser");
 
 module.exports = (app) => {
   const getHash = (password, callback) => {
